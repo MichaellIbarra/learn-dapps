@@ -47,6 +47,13 @@
 - 4. El contrato inteligente utiliza los datos proporcionados por el oráculo para ejecutar su lógica.
 - Smart contract -> Solicitud de datos -> Oráculo -> Datos externos -> Respuesta al smart contract
 
+## Tipos de Oráculos
+- Software: Proveen datos digitales, como precios de criptomonedas o resultados deportivos.
+- Hardware: Proveen datos del mundo físico, como sensores IoT o dispositivos GPS.
+- Entrantes y Salientes: Los oráculos entrantes traen datos externos a la blockchain, mientras que los oráculos salientes envían datos desde la blockchain al mundo exterior.
+- De consenso: Utilizan múltiples fuentes de datos para garantizar la precisión y confiabilidad de la información proporcionada.
+
+
 ## Términos comunes
 - Blockchain: Una base de datos distribuida que almacena datos en bloques encadenados y es resistente a la modificación.
 - Contrato inteligente: Un programa que se ejecuta en la blockchain y que define reglas y condiciones para las transacciones.
@@ -79,3 +86,5 @@
 - JSON-RPC: Es un protocolo de llamada a procedimientos remotos (RPC) que utiliza JSON (JavaScript Object Notation) para la comunicación entre un cliente y un servidor. En el contexto de blockchain, JSON-RPC se utiliza para interactuar con nodos de la red, permitiendo a los desarrolladores enviar solicitudes y recibir respuestas en formato JSON. la cuenta del usuario que envía la transacción. Esta dirección es esencial para identificar al remitente y verificar su saldo antes de procesar la transacción.
 - tx receipt: Es un objeto que contiene información detallada sobre una transacción específica en la blockchain de Ethereum. El tx receipt se genera después de que una transacción ha sido procesada y minada en un bloque, y proporciona datos importantes como el estado de la transacción, el gas utilizado, los logs generados por eventos, y otros detalles relevantes.
 - eventos logs: Son registros generados por contratos inteligentes en la blockchain de Ethereum cuando se emiten eventos durante la ejecución de una transacción. Estos logs contienen información sobre los eventos específicos que ocurrieron, incluyendo los parámetros asociados, y son almacenados en la blockchain para su posterior consulta y análisis.
+- concenso: Es un mecanismo mediante el cual los nodos de una red blockchain acuerdan el estado de la cadena de bloques. El consenso es esencial para garantizar la integridad y la seguridad de la blockchain, ya que permite que todos los participantes en la red validen y acepten las transacciones y bloques nuevos de manera uniforme.
+- lightning network: Es una solución de segunda capa para la blockchain de Bitcoin que permite realizar transacciones rápidas y de bajo costo fuera de la cadena principal. La lightning network crea canales de pago entre los usuarios, lo que permite múltiples transacciones sin necesidad de registrar cada una en la blockchain, reduciendo así la congestión y las tarifas. utilizan criptografía para asegurar las transacciones y controlar la creación de nuevas unidades.
