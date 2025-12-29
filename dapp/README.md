@@ -24,6 +24,14 @@
 - npx hardhat ignition deploy ./ignition/modules/Main.ts --network hoodi : Despliega los contratos inteligentes en la red hoodi utilizando el módulo Main.ts.
 - npx hardhat console --network hoodi : Abre una consola interactiva para interactuar con la red hoodi.
 
+## Que es Hardhat
+- Hardhat es un entorno de desarrollo para Ethereum que facilita la compilación, prueba y despliegue de contratos inteligentes. Proporciona herramientas y plugins para mejorar la productividad del desarrollador.
+- Permite la creación de redes locales para pruebas, integración con otras herramientas y automatización de tareas comunes en el desarrollo de Dapps.
+    ### Ventajas de Hardhat
+    - Fácil de usar: Proporciona una configuración sencilla y una interfaz amigable.
+    - Extensible: Soporta plugins para agregar funcionalidades adicionales.
+    - Integración con otras herramientas: Compatible con bibliotecas populares como ethers.js y web3.js.
+
 ## Términos comunes
 - fungibilidad: La capacidad de un activo para ser intercambiado por otro del mismo tipo y valor.
 - token no fungible (NFT): Un activo digital único que representa la propiedad de un artículo específico, como arte, música o coleccionables.Definición: Un token no fungible (NFT) es un tipo especial de token criptográfico que representa un activo digital único y no intercambiable.
